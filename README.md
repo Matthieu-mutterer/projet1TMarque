@@ -8,6 +8,11 @@ Voici le repository pour mon projet creation d'un site de vettement en ligne.
 je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * [MUTTERER Matthieu](https://github.com/Matthieu-mutterer) 1TM2
 ## Description : 
+### Configuration de la DB : 
+* id utilisateur : **dba**
+* mdp utisateur  : **sql**
+* nom du serveur : **projet**
+* nom de la db   : **projet**  
 ### Fonctionnalités principale : 
    * Est un site qui vent une marque de vêtement avec leur différent model. 
    * Il y auras un formulaire pour crée son propre compte au site. 
