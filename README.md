@@ -1,8 +1,16 @@
-# projet1TMarque
-Description : 
-Fonctionnalités principale : 
-  -	Est un site qui vent une marque de vêtement avec leur différent model. 
-  -	Il y auras un formulaire pour crée son propre compte au site. 
+# 1T-projet-marque
+Voici le repository pour mon projet creation d'un site de vettement en ligne.
+
+2019 - 2020 Aspects Structures et Données
+
+ ![Image de l'ephec](https://i.imgur.com/k1pB47i.png?1)
+ ## Présentation :  
+je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
+* [MUTTERER Matthieu](https://github.com/Matthieu-mutterer) 1TM2
+## Description : 
+### Fonctionnalités principale : 
+  * Est un site qui vent une marque de vêtement avec leur différent model. 
+  * Il y auras un formulaire pour crée son propre compte au site. 
 Fonctionnalités secondaire : 
   -	Pour chaque vêtement : 
     o	 un prix seras affiché. 
