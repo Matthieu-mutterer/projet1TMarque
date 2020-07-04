@@ -17,13 +17,13 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
    - L’utilisateur pourras choisir sa taille. 
    - L’utilisateur pourras choisir sa couleur. 
    - L’utilisateur pourras ajouter autant de vêtement dans son panier et aller consulter son panier pour passer la commande. 
-Aspects implémenté : 
+ ### Aspects implémenté : 
   -	Backend : une base de données avec le style de vêtement, le prix de chaque vêtement, la taille et la couleur. 
   -	Backend :  Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices. 
-  -	Backend : Des Webservices : 
-    o	Un webservice permettant de sélectionné chaque vêtement. 
-    o	Un webservice permettant d’afficher le nom de chaque vêtement. 
-    o	Un webservice permettant de sélectionné la taille et la couleur de chaque vêtement. 
+  - Backend : Des Webservices : 
+     *	Un webservice permettant de sélectionné chaque vêtement. 
+     *	Un webservice permettant d’afficher le nom de chaque vêtement. 
+     * Un webservice permettant de sélectionné la taille et la couleur de chaque vêtement. 
   -	Frontend : Une page web (html, js, css) permettant d'appeler les webservices et de traiter les réponses, les utilisant pour modifier la page : 
     o	Afficher les vêtement
     o	Afficher le prix de chaque vêtement
