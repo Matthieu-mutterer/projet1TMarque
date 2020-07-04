@@ -13,10 +13,10 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
    * Il y auras un formulaire pour crée son propre compte au site. 
 ### Fonctionnalités secondaire : 
   Pour chaque vêtement : 
-    * un prix seras affiché. 
-    * L’utilisateur pourras choisir sa taille. 
-    * L’utilisateur pourras choisir sa couleur. 
-    * L’utilisateur pourras ajouter autant de vêtement dans son panier et aller consulter son panier pour passer la commande. 
+   - un prix seras affiché. 
+   - L’utilisateur pourras choisir sa taille. 
+   - L’utilisateur pourras choisir sa couleur. 
+   - L’utilisateur pourras ajouter autant de vêtement dans son panier et aller consulter son panier pour passer la commande. 
 Aspects implémenté : 
   -	Backend : une base de données avec le style de vêtement, le prix de chaque vêtement, la taille et la couleur. 
   -	Backend :  Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices. 
