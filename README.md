@@ -10,7 +10,7 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 ## Description : 
 ### Fonctionnalités principale : 
    Est un site qui vent une marque de vêtement avec leur différent model. 
-   Il y auras un formulaire pour crée son propre compte au site. 
+   * Il y auras un formulaire pour crée son propre compte au site. 
 ### Fonctionnalités secondaire : 
   Pour chaque vêtement : 
     * un prix seras affiché. 
