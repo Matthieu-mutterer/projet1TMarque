@@ -9,11 +9,11 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * [MUTTERER Matthieu](https://github.com/Matthieu-mutterer) 1TM2
 ## Description : 
 ### Fonctionnalités principale : 
-  * Est un site qui vent une marque de vêtement avec leur différent model. 
-  * Il y auras un formulaire pour crée son propre compte au site. 
-Fonctionnalités secondaire : 
-  -	Pour chaque vêtement : 
-    o	 un prix seras affiché. 
+   Est un site qui vent une marque de vêtement avec leur différent model. 
+   Il y auras un formulaire pour crée son propre compte au site. 
+### Fonctionnalités secondaire : 
+  Pour chaque vêtement : 
+    * un prix seras affiché. 
     o	L’utilisateur pourras choisir sa taille. 
     o	L’utilisateur pourras choisir sa couleur. 
   -	L’utilisateur pourras ajouter autant de vêtement dans son panier et aller consulter son panier pour passer la commande. 
