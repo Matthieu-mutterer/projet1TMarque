@@ -13,24 +13,25 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * mdp utisateur  : **sql**
 * nom du serveur : **projet**
 * nom de la db   : **projet**  
-### Fonctionnalités principale : 
-   * Est un site qui vent une marque de vêtement avec leur différent model. 
-   * Il y auras un formulaire pour crée son propre compte au site. 
-### Fonctionnalités secondaire : 
-  Pour chaque vêtement : 
-   - un prix seras affiché. 
-   - L’utilisateur pourras choisir sa taille. 
-   - L’utilisateur pourras choisir sa couleur. 
-   - L’utilisateur pourras ajouter autant de vêtement dans son panier et aller consulter son panier pour passer la commande. 
- ### Aspects implémenté : 
-  -	Backend : une base de données avec le style de vêtement, le prix de chaque vêtement, la taille et la couleur. 
-  -	Backend :  Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices. 
-  - Backend : Des Webservices : 
-     *	Un webservice permettant de sélectionné chaque vêtement. 
-     *	Un webservice permettant d’afficher le nom de chaque vêtement. 
-     * Un webservice permettant de sélectionné la taille et la couleur de chaque vêtement. 
-  -	Frontend : Une page web (html, js, css) permettant d'appeler les webservices et de traiter les réponses, les utilisant pour modifier la page : 
-    o	Afficher les vêtement
-    o	Afficher le prix de chaque vêtement
-    o	Afficher la taille et la couleur de chaque vêtement. 
+### Fonctionnalités principales : 
+   *	Est un site qui supporte la commercialisation d’une nouvelle marque de vêtements. 
+   * Il y aura un formulaire pour créer son propre compte sur le site. 
+ 
+### Fonctionnalités secondaires : 
+ 	Pour chaque vêtement : 
+   - Un prix seras affiché. 
+   - L’utilisateur pourra choisir la taille. 
+   - L’utilisateur pourra choisir la couleur. 
+   - L’utilisateur pourra ajouter ses achats dans son panier et aller consulter son panier pour passer la commande. 
+ ### Aspects implémentés : 
+  -	Backend : une base de données avec le style de vêtements, le prix de chaque vêtement, la taille et la couleur. 
+-	Backend :  Un serveur web capable de fournir les pages html, js, css, et de proposer des webservices. 
+-	Backend : Des Webservices : 
+o Un webservice permettant de sélectionner chaque vêtement. 
+o	Un webservice permettant d’afficher le nom de chaque vêtement. 
+o	Un webservice permettant de sélectionner la taille et la couleur de chaque vêtement. 
+-	Frontend : Une page web (html, js, css) permettant d'appeler les webservices et de traiter les réponses, les utilisant pour modifier la page : 
+o	Afficher les vêtements
+o	Afficher le prix de chaque vêtement
+o	Afficher la taille et la couleur de chaque vêtement. 
 
