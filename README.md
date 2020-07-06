@@ -11,8 +11,8 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 ### Configuration de la DB : 
 * id utilisateur : **dba**
 * mdp utisateur  : **sql**
-* nom du serveur : **projet**
-* nom de la db   : **projet**  
+* nom du serveur : **projet2**
+* nom de la db   : **projet2**  
 ### Fonctionnalités principales : 
    *	Est un site qui supporte la commercialisation d’une nouvelle marque de vêtements. 
    * Il y aura un formulaire pour créer son propre compte sur le site. 
