@@ -1,0 +1,19 @@
+/* MUTTERER Matthieu 
+insertion des couleur */
+
+INSERT INTO tbCouleur(couleurId, nomCouleur)
+VALUES 
+(1, 'Rouge'),
+(2, 'Blanc'),
+(3, 'Noire'), 
+(4, 'Jaune'), 
+(5, 'Bleu')
+
+/* MUTTERER Matthieu
+insertion des noms des vêtements */
+
+INSERT INTO tbNom(nomId, nomVet)
+VALUES 
+(1, 'Pull The Sad Boy Experiment'),
+(2, 'T-shirt The Sad Boy Experiment'),
+(3, 'Veste The Sad Boy Experiment')
