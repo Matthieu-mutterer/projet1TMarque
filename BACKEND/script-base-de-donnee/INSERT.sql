@@ -24,13 +24,13 @@ VALUES
 (2, 'M'),
 (3, 'L')
 
-INSERT INTO tbShirt(shirtI, nomId, tailleId, couleurId, shirtPrix)
+INSERT INTO tbShirt(shirtId, nomId, tailleId, couleurId, shirtPrix)
 VALUES 
 (1, '1', '1', '1', '35'),
 (2, '1', '1', '2', '35'),
 (3, '1', '1', '3', '35'), 
 (4, '1', '2', '1', '35'),
-(5 '1', '2', '2', '35'),
+(5, '1', '2', '2', '35'),
 (6, '1', '2', '3', '35'),
 (7, '1', '3', '1', '35'),
 (8, '1', '3', '2', '35'),
