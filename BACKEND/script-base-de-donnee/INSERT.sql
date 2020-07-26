@@ -24,6 +24,10 @@ VALUES
 (2, 'M'),
 (3, 'L')
 
+INSERT INTO tbConnect (connecId, adresse, passw)
+VALUES 
+(1, 'Matthieu.mutterer@gmail.com', '1234')
+
 INSERT INTO tbShirt(shirtId, nomId, tailleId, couleurId, shirtPrix)
 VALUES 
 (1, '1', '1', '1', '35'),
