@@ -1,0 +1,30 @@
+#titre{
+    text-align: center;
+    margin-left: 210px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+#dejCompte{
+    float: left;
+}
+#inscrip{
+    float: left;
+}
+.img{
+
+    margin-right: 3000px;
+    margin-top: 0;
+}
+#pannie{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#accuille{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
+}
