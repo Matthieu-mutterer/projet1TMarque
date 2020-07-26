@@ -1,3 +1,7 @@
+#titre{
+    text-align: center;
+    margin-left: 210px;
+}
 #boxV{
     width: 500px;
     height: 500px;
@@ -18,4 +22,19 @@ ul{
     float: right;
     margin-right: 400px;
     margin-top: 100px;
+}
+#seConnecte{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#pannie{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#accuille{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
 }
