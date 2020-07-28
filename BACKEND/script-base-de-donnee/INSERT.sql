@@ -53,7 +53,3 @@ VALUES
 (25, '3', '3', '1', '60'),
 (26, '3', '3', '2', '60'),
 (27, '3', '3', '3', '60')
-
-INSERT INTO tbConnect (connecId, adresse, passw)
-VALUES 
-(1, 'matthieu.mutterer@gmail.com', '1234')
