@@ -14,7 +14,7 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * nom du serveur : **projet2**
 * nom de la db   : **projet2**  
 ### Shema rationne
-![image du shema relatioinnel](https://i.imgur.com/Ypfs6yY.png)
+![image du shema relatioinnel](https://i.imgur.com/aKkMHAE.png)
 ### Fonctionnalités principales : 
    *	Est un site qui supporte la commercialisation d’une nouvelle marque de vêtements. 
    * Il y aura un formulaire pour créer son propre compte sur le site. 
