@@ -13,6 +13,11 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * mdp utisateur  : **sql**
 * nom du serveur : **projet2**
 * nom de la db   : **projet2**  
+
+-serviceweb :
+* -n projet "C:\Users\matth\OneDrive\Bureau\backend2\projet2.db"
+* -x tcpip
+* -xs http(port=83)
 ### Shema rationne
 ![image du shema relatioinnel](https://i.imgur.com/aKkMHAE.png)
 ### Fonctionnalités principales : 
