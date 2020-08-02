@@ -38,4 +38,7 @@ BEGIN
 	call sa_set_http_header('Content-Type', 'text/css');
 	select xp_read_file(dba.getPath() || 'css\' || url);
 END;
-    
+
+_________________________________________________________________________________________________________________________________________
+
+CREATE SERVICE "page" TYPE 'RAW' AUTHORIZATION OFF USER "DBA" URL ON METHODS 'GET' AS call dba.http_getPage(:url); 
