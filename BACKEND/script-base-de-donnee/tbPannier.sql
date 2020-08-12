@@ -4,6 +4,5 @@ CREATE TABLE tbPannier(
 	nomCouleur VARCHAR(50) NOT NULL,
 	nomTAil varchar(50) NOT NULL,
 	shirtPrix INT NOT NULL, 
-	constraint pk_tbConnect PRIMARY KEY (connecId), 
-   	CONSTRAINT fk_tbConnect_tbPannier FOREIGN KEY (connecId) REFERENCE tbPannier (panniId)
+	constraint pk_tbConnect PRIMARY KEY (panniId)
 );
