@@ -1,0 +1,25 @@
+#titre{
+    text-align: center;
+    margin-left: 200px;
+}
+#seConnecte{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#accuille{
+    float: right;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#commande{
+    font-size: 25px;
+}
+li{
+    margin-left: 150px;
+}
+.img{
+    margin-top: 0;
+    float: right;
+    margin-right: 300px;
+}
