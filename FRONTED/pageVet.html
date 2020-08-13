@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>info vêtement</title>
     <link rel="stylesheet" type="text/css" href=css/pageVet.css>
+    <script src="js/projet.js" type="text/javascript"></script>
 </head>
-<body>
+<body onload="getDetails(); getTaille()" >
 <div>
     <a id="seConnecte" href="seConnecter.html">
         Se Connecté
@@ -17,7 +18,7 @@
     </a>
 </div>
 <div>
-    <a id="accuille" href="accuille.html">
+    <a id="accuille" href="projet.html">
         accuille
     </a>
 </div>
@@ -25,16 +26,16 @@
 <div id="boxV">
 
 </div>
+<div id="nomPrix">
 
-<div id="liste">
-    <ul>
-        <li> Nom: </li>
-        <li> Prix: </li>
-        <li id="taille"> Taille: <select> </select> </li>
-        <li> <input type="submit" id="bouton" value="acheter"></li>
-    </ul>
 </div>
 
+<div id="liste">
+
+</div>
+<form>
+    <input type="button" value="ajouter au pannier" onclick="ajoutPannier()"></input>
+</form>
 <div class="img">
     <img src="img/logo.png" alt="T-shirt Noire TSBE" width="500" height="500"/>
 </div>
