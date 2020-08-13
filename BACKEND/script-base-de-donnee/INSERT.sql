@@ -24,6 +24,18 @@ VALUES
 (2, 'M'),
 (3, 'L')
 
+INSERT INTO tbImages(imageId, imageFile)
+VALUES 
+(1, 't-shirtBlanc.jpg'),
+(2, 't-shirtNoire.jpg'),
+(3, 't-shirtJaune.jpg'), 
+(4, 'pullBlanc.jpg'), 
+(5, 'pullNoire.jpg'), 
+(6, 'pullRouge.jpg'), 
+(7, 'vesteBleu.jpg'), 
+(8, 'vesteNoire.jpg'), 
+(9, 'vesteRouge.jpg')
+
 INSERT INTO tbShirt(shirtId, nomId, tailleId, couleurId,imageId, shirtPrix)
 VALUES 
 (1, 1, 1, 1, 6, 35),
