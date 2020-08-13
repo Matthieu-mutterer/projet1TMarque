@@ -4,3 +4,4 @@ BEGIN
     select xp_read_file(dba.getPath() || 'IMG\' || url); // revoyer image 
 END
 ---------------------------------------------------------------------------------------------------------------------------------------------
+CREATE SERVICE "img" TYPE 'RAW' AUTHORIZATION OFF USER "DBA" URL ON METHODS 'GET' AS call dba.http_getIMG(:url);
