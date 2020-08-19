@@ -4,3 +4,4 @@ BEGIN
   VALUES (nom, coul, tail, prix);
 END
 --------------------------------------------------------------------------------------------------------------------------------------------
+  CREATE SERVICE "proc_insert_pannier" TYPE 'RAW' AUTHORIZATION OFF USER "DBA" METHODS 'GET' AS call dba.proc_insert_pannier(:nom,:coul,:tail,:prix);
