@@ -19,3 +19,5 @@ FROM
 GROUP BY  N.nomVet, S.shirtPrix, I.imageFile, C.nomCouleur
 END
 ---------------------------------------------------------------------------------------
+CREATE SERVICE "initCatalogue" TYPE 'JSON' AUTHORIZATION OFF USER "dba" URL ON METHODS 'GET' AS call dba.init_catalogue();
+
