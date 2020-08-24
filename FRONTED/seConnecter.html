@@ -2,57 +2,27 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Se Connecter</title>
+    <title>S'enregistrer</title>
     <link rel="stylesheet" type="text/css" href=css/seConnecter.css>
+    <script src="js/projet.js" type="text/javascript"></script>
 </head>
-<body>
+<body onload="getConnect(); ajoutUtilisateur()">
 <div>
-    <a id="pannie" href="pannier.html">
-        Pannier
+    <a id="pannier">
+
     </a>
 </div>
 <div>
     <a id="accuille" href="projet.html">
-        accuille
+        accueil
     </a>
 </div>
-<h1 id="titre"> Se connecter</h1>
+<h1 id="titre"> S'enregistrer</h1>
 
-<div id="dejCompte">
-    <h2> Déja un compte: </h2>
-    <ol>
-        <li> <label for="email">Adresse eamil: </label>
+<div id="dejCompte" >
 
-            <input type="email" id="email"
-                    pattern="@" size="30" required></li>
-        <li>
-            <label for="pass">Password (8 characters minimum):</label>
-            <input type="password" id="pass" name="password"
-                   minlength="8" required>
-        </li>
-        <input type="submit" id="bouton" value="Se connecter">
-    </ol>
 </div>
 
-<div id="inscrip">
-    <h2> Inscription: </h2>
-    <ol>
-        <li> <label for="email">Adresse eamil: </label>
-
-            <input type="email" id="emailIn"
-                   pattern="@" size="30" required></li>
-        <li>
-            <label for="pass">Password (8 characters minimum):</label>
-            <input type="password" id="pass2" name="password"
-                   minlength="8" required>
-        </li>
-        <li><label for="pass"> Confirmer Password (8 characters minimum):</label>
-            <input type="password" id="pass3" name="password"
-                   minlength="8" required>
-        </li>
-        <input type="submit" id="bouton2" value="Se connecter">
-    </ol>
-</div>
 <div class="img">
     <img src="img/logo.png" alt="T-shirt Noire TSBE" width="500" height="500"/>
 </div>
