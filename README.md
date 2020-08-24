@@ -20,6 +20,79 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * -xs http(port=83)
 ### Shema rationne
 ![image du shema relatioinnel](https://i.imgur.com/aKkMHAE.png)
+## Détail DB : 
+### -tbNom :
+Il s'agit de la tables des Noms des vetements 
+pk = nomId  
+Cette table comprend 2 colonnes : 
+* **nomId** qui est auto incrmentée et un integer.
+* **nomVet** qui est un varchar(50) regroupant les noms des vetement.
+### -tbCouleur : 
+Il s'agit de la tables des couleurs  
+pk = couleurId
+Cette table comprend 2 colonnes :
+* **couleurId** qui est un integer.
+* **nomCouleur** qui est un varchar(20) regroupant les noms de chaques couleurs.
+### -tbImages :
+Il s'agit de la table des images des vetements 
+pk = imageId    
+Cette table comprend 2 colonnes : 
+* **imageId** qui est un integer.
+* **imageFile** qui est un varchar(50) regroupant les noms d'iamge.
+### -tbPannier
+Il s'agit de la table qui contient les produit acheté 
+pk = panniId
+Cette table comprend 5 colonnes :
+* **panniId** qui est un integer autoincrement.
+* **nomVet** qui est un varchar(50) regroupant les noms des vetements.
+* **nomCouleur** qui est un varchar(50) regroupant les noms de chaques couleurs.
+* **nomTAil** qui est un varchar(50) regroupant les noms de chaques tailles.
+* **shirtPrix** qui est un decimal(4,2) NULL  qui regroupe le prix de chaque vetement
+### -tbTaille
+Il s'agit de la table contenat les tailles 
+pk = tailleId  
+Cette table comprend 2 colonnes : 
+* **tailleId** qui est un integer.
+* **nomTAil** qui est un varchar(5) regroupant les noms de chaques tailles.
+### -tbConnect
+Il s'agit de la table contenat les utilisateur enregistré
+pk = connecId  
+Cette table comprend 3 colonnes : 
+* **connecId** qui est un integer.
+* **adresse** qui est un varchar(100) regroupant les adresse email de chaque utilisateurs.
+* **passw** qui est un varchar(50) regroupant les mots de passes de chaque utilisateurs.
+### -tbShirt
+Il s'agit de la table qui regroupe toutes les infromations de chaque vetement 
+pk = shirtId  
+fk = nomIdId > tbNom.nomId  
+fk = tailleId > tbTaille.tailleId  
+fk = couleurId > tbCouleur.couleurId  
+fk = imageId > tbImages.imageId  
+fk = panniId > tbpannier.panniId  
+Cette table comprend 7 colonnes : 
+* **shirtId** qui est un integer.
+* **nomId** qui est un integer.
+* **tailleId** qui est un integer.
+* **couleurId** qui est un integer.
+* **imageId** qui est un integer.
+* **panniId** qui est un integer.
+* **shirtPrix** qui est un decimal(4,2) NULL  qui regroupe le prix de chaque vetement
+## Détail API-REST :
+* **proc_insert_ingredient(:ingredient,:unite,:quantite,:idrecette)**  
+*Procedure qui permet d'inserer des ingredients dans une recette et stocker dans notre base de donnée.*
+* **proc_insert_pannier(:nom,:coul, :tail, :prix)**  
+*Procedure qui permet de inseret  nom de vetement, sa couleur, sa taille et son prix dans la base de donnée.*
+* **proc_insert_connecter(:adres,:pasw)**  
+*Procedure qui permet d'ajouter des utilisateur dans notre base de donnée.*
+* **init_catalogue()**  
+*Procedure qui donne les nom, image, couleur, prix, taille.*
+* **getTaille()**  
+*Procedure qui donne les noms des taille des vetement.*
+* **getPannier()**  
+*Procedure qui donne le contenue du panier.*
+* **getConnect()**  D
+*Procedure qui donne les adresses les mot de passe et les Id des utilisateur.*
+### FONCTIONNALITES PRINCIPALES : 
 ### Fonctionnalités principales : 
    *	Est un site qui supporte la commercialisation d’une nouvelle marque de vêtements. 
    * Il y aura un formulaire pour créer son propre compte sur le site. 
