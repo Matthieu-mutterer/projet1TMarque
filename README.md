@@ -19,7 +19,7 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * -x tcpip
 * -xs http(port=83)
 ### Shema rationne
-![image du shema relatioinnel](https://i.imgur.com/aKkMHAE.png)
+![image du shema relatioinnel](https://i.imgur.com/8mUPWjD.png)
 ## Détail DB : 
 ### -tbNom :
 Il s'agit de la tables des Noms des vetements 
