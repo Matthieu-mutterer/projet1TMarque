@@ -69,7 +69,9 @@ function getDetails() {
 
             }
             stri += "<a href=\"page?url=pannier\"> Panier </a>";
+            strin += "<a href=\"page?url=seConnecter\"> s'enregistrer </a>";
             document.getElementById('pannier').innerHTML = stri;
+            document.getElementById('seConnecte').innerHTML = strin;
             document.getElementById('boxV').innerHTML = str;
             document.getElementById('nomPrix').innerHTML = string;
 
@@ -192,7 +194,7 @@ function ajoutUtilisateur(adresse, passw){
     };
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
-            string += "vous ete enregistrer";
+            string += "vous êtes enregistré";
             document.getElementById("dejCompte") = string;
         }
     };
