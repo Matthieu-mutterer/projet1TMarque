@@ -15,7 +15,7 @@ je suis un élèves en TI de l'[Ephec](https://www.ephec.be/)
 * nom de la db   : **projet2**  
 
 -serviceweb :
-* -n projet "C:\Users\matth\OneDrive\Bureau\backend2\projet2.db"
+* -n projet "C:\Users\matth\OneDrive\Bureau\FRONTED\projet2.db"
 * -x tcpip
 * -xs http(port=83)
 ### Shema rationne
